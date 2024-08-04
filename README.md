@@ -42,43 +42,41 @@ This is a full-stack Todo List application built using Spring Boot, React, Maven
 ```sh
 git clone https://github.com/VMA9/fullstack-springboot-react-todolist.git
 cd fullstack-springboot-react-todolist
+```
 
 2.	Install frontend dependencies:
-
+```
 cd todolist-frontend
 npm install
 cd ..
-
+```
 
 3.	Build the backend:
-
+```
 ./mvnw clean install
-
-
+```
 
 ## Running the Application
 
 Without Docker
 
 1.	Start the backend server:
-
+```
 ./mvnw spring-boot:run
-
+```
 
 2.	Start the frontend development server:
-
+```
 cd todolist-frontend
 npm start
-
-
+```
 
 With Docker
 
 1.	Build and run the Docker containers:
-
+```
 docker-compose up --build
-
-
+```
 
 ## Usage
 
