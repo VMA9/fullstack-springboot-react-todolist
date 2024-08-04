@@ -42,3 +42,59 @@ This is a full-stack Todo List application built using Spring Boot, React, Maven
    ```sh
    git clone https://github.com/VMA9/fullstack-springboot-react-todolist.git
    cd fullstack-springboot-react-todolist
+
+	2.	Install frontend dependencies:
+
+cd todolist-frontend
+npm install
+cd ..
+
+
+	3.	Build the backend:
+
+./mvnw clean install
+
+
+
+Running the Application
+
+Without Docker
+
+	1.	Start the backend server:
+
+./mvnw spring-boot:run
+
+
+	2.	Start the frontend development server:
+
+cd todolist-frontend
+npm start
+
+
+
+With Docker
+
+	1.	Build and run the Docker containers:
+
+docker-compose up --build
+
+
+
+Usage
+
+	1.	Open your browser and navigate to http://localhost:3000 to access the Todo List application.
+	2.	Use the UI to add, edit, delete, and mark todos as completed.
+
+Contributing
+
+Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are accepted.
+
+	1.	Fork the repository.
+	2.	Create a new feature branch: git checkout -b feature/your-feature-name.
+	3.	Commit your changes: git commit -m 'Add some feature'.
+	4.	Push to the branch: git push origin feature/your-feature-name.
+	5.	Open a pull request.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
