@@ -11,7 +11,6 @@ This is a full-stack Todo List application built using Spring Boot, React, Maven
 - [Running the Application](#running-the-application)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -92,7 +91,3 @@ Contributions are welcome! Please fork the repository and use a feature branch. 
 3.	Commit your changes: git commit -m 'Add some feature'.
 4.	Push to the branch: git push origin feature/your-feature-name.
 5.	Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
